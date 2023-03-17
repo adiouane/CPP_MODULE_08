@@ -6,7 +6,7 @@
 /*   By: adiouane <adiouane@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/25 22:49:20 by adiouane          #+#    #+#             */
-/*   Updated: 2023/03/17 01:33:57 by adiouane         ###   ########.fr       */
+/*   Updated: 2023/03/17 19:14:30 by adiouane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #define EASYFIND_HPP
 
 #include <exception>
-#include <algorithm>
 #include <vector>
 #include <iostream>
 
