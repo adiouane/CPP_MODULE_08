@@ -6,7 +6,7 @@
 /*   By: adiouane <adiouane@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/25 22:49:51 by adiouane          #+#    #+#             */
-/*   Updated: 2023/03/17 19:13:36 by adiouane         ###   ########.fr       */
+/*   Updated: 2023/03/20 22:39:40 by adiouane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,10 @@ int main(void)
     mstack.push(3);
     mstack.push(5);
     mstack.push(737);
-    mstack.push(0);
-
+    //[...] mstack.push(0);
     MutantStack<int>::iterator it = mstack.begin();
     MutantStack<int>::iterator ite = mstack.end();
+
     ++it;
     --it;
     while (it != ite)
@@ -42,7 +42,7 @@ int main(void)
     std::stack<int> s(mstack);
 
     std::cout << "----------------" << std::endl;
-    //my test
+    // my test
     std::cout << "const iterator" << std::endl;
     MutantStack<int>::const_iterator citb = mstack.begin();
     MutantStack<int>::const_iterator cite = mstack.end();
